@@ -3,10 +3,10 @@ from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
-    GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "sk-jLHY9FFKlEwpBtZ7cOHtofdpomr254dOviV1IYKDXbJv2pev")
-    GEMINI_BASE_URL: str = os.getenv("GEMINI_BASE_URL", "https://147ai.com")
-    GEMINI_MODEL: str = os.getenv("GEMINI_MODEL", "gemini-3-flash-preview")
-    DASHSCOPE_API_KEY: str = os.getenv("DASHSCOPE_API_KEY", "sk-b9f969f375024b7d932946826d19583f")
+    GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "your_api_key_here")
+    GEMINI_BASE_URL: str = os.getenv("GEMINI_BASE_URL", "https://api.example.com/v1")
+    GEMINI_MODEL: str = os.getenv("GEMINI_MODEL", "your_model_name")
+    DASHSCOPE_API_KEY: str = os.getenv("DASHSCOPE_API_KEY", "")
     MYSQL_HOST: str = os.getenv("MYSQL_HOST", "mysql")
     MYSQL_PORT: int = int(os.getenv("MYSQL_PORT", "3306"))
     MYSQL_USER: str = os.getenv("MYSQL_USER", "root")

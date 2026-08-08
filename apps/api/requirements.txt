@@ -1,0 +1,16 @@
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+pydantic-settings==2.7.0
+openai==1.58.1
+httpx==0.28.1
+python-multipart==0.0.19
+
+
+asyncpg==0.30.0
+redis==5.2.1
+arq==0.26.3
+sentence-transformers==3.4.1
+paddleocr==3.7.0
+paddlepaddle==3.3.1
+Pillow==11.1.0
+pypdf==5.4.0

@@ -14,3 +14,11 @@ qwen/
 rag_env/
 *.egg-info/
 node_modules/
+apps/web/dist/
+apps/web/tsconfig.tsbuildinfo
+apps/data/knowledge/
+mineru-test/
+mineru-verify-pocket3/
+/*.pdf
+*.bak
+apps/api/artifacts/
